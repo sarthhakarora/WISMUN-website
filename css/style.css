@@ -19,7 +19,58 @@
     background-color: var(--dark);
 
 }
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; /* Ensures equal card heights */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
 
+  .card {
+    flex: 1 1 300px;      /* Grow, shrink, base width */
+    max-width: 350px;     /* Prevent overly large cards */
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    overflow: hidden;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-body {
+    padding: 20px;
+    flex: 1;              /* Makes all card bodies the same height */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #111;
+    text-align: left;
+  }
+
+  .card-text {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #333;
+    flex: 1;
+  }
 .gsglogo {
     max-height: 60px;
     margin-left: 10px;
@@ -94,6 +145,17 @@ h6,
 .btn-primary:hover {
     color: #FFFFFF;
     background-color: var(--primary);
+}
+.navbg{
+    border-radius: 5px;
+    vertical-align: middle;
+    background-color: white;
+    border: 0px solid black;
+    transition: background-color 0.3s ease;
+}
+
+.navbg:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .btn-square {

@@ -40,37 +40,50 @@
 
    <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-            <img class="gsglogo" src="img/gsg.svg" alt="GsG logo">
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">Gallery</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+        <div class="container-fluid">
+            <!-- Left-aligned logo -->
+            <div style="margin-left: 30px;">
+                <img class="gsglogo" src="img/gsg.svg" alt="GsG logo" style="height: 40px;">
             </div>
-            <div class="ms-auto d-none d-lg-block">
-                <img class="gsglogo" src="img/witty.png" alt="Witty logo">
-                <img class="gsglogo" src="img/wismun-logo.png" alt="Wismun logo">
+
+            <!-- Toggler button for small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> </button> <!-- Navbar links --> <div class="collapse navbar-collapse" id="navbarCollapse"> <div class="navbar-nav p-4 p-lg-0"> <a href="index.html" class="nav-item nav-link">Home</a> <a href="about.html" class="nav-item nav-link">Gallery</a> <a href="contact.html" class="nav-item nav-link">Contact</a> <a href="registor.html" class="nav-item nav-link">Register Now</a> </div>
+                <!-- Centered Wismun logo on large screens -->
+                <div class="mx-auto d-none d-lg-block">
+                    <img class="gsglogo" src="img/wismun-logo.png" alt="Wismun logo" style="height: 40px;">
+                </div>
+
+                <!-- Right-aligned Witty logo on large screens -->
+                <div class="ms-auto d-none d-lg-block">
+                    <img class="gsglogo" src="img/witty.png" alt="Witty logo" style="height: 40px;">
+                </div>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
 
+
     <!-- Carousel Start -->
     <div class="container-fluid px-0 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
+            <div style="width: 100%; background-color: #a4b0bf; padding: 10px 20px; box-sizing: border-box;">
+                <p style="color: black; text-align: center; font-family: Arial, Helvetica, sans-serif; margin: 0;">
+                    Join us on 2nd & 3rd August 2025 at Witty International School, Pawan Baug, Borivali (W)
+                </p>
+            </div>
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/classroom.png" alt="Image">
+                    <img class="w-100" src="img/banner.jpeg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">Welcome To WISMUN 2025</h1>
-                                    <a href="contact.html" class="btn btn-primary py-3 px-5 animated slideInRight" style="background-color: darkgray; border: 0px solid">Register Now</a>
+                                    <a href="registor.html" class="btn btn-primary py-3 px-5 animated slideInRight" style="background-color: #fdb910; border: 0px solid; border-radius: 30px;">Register Now</a>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +121,7 @@
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
                 <div class="text-center border p-5">
                     <i class="fa fa-check-double fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0 text-white" data-toggle="counter-up">20</h1>
+                    <h1 class="display-2 text-primary mb-0 text-white" data-toggle="counter-up">16</h1>
                     <span class="fs-5 fw-semi-bold text-white">committee</span>
                 </div>
             </div>
@@ -127,13 +140,14 @@
                         <img class="img-fluid w-100" src="img/classroom2.jpg" alt="">
                         <span class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block" style="width: 120px; height: 120px;"></span>
                         <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="https://www.youtube.com/embed/dQw4w9WgXcQ" data-bs-target="#videoModal">
+                            data-src="https://www.youtube.com/" data-bs-target="#videoModal">
                             <span></span>
                         </button>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <h1 class="display-5 mb-4">Our Theme</h1>
+                    <hr>
                     <div class="row gy-4">
                         <div class="col-12">
                             <div class="d-flex">
@@ -198,40 +212,43 @@
     <!-- Video Modal End -->
 
     <div>
-        <h1 style="text-align: center; margin-bottom: 10px; margin-top: 30px; font-size: 50px;">Why Register with Us?</h1>
-        <p style="text-align: center; margin-bottom: 30px; margin-top: 20px; font-size: 20px;">Explore three compelling reasons to join our MUN</p>
-        <div style="display: flex; justify-content: center; align-items: center;">
-            <div class="Card">
-                <img src="img/reasontojoin1.webp" alt="" style="border-radius: 20px; width: 100%;">
-                <br>
-                <p style="font-size: 20px;">
-                    Engage in debates covering a wide range of pressing global issues, such as environmental sustainability, human rights, economic development, and more. Each committee provides a unique platform to explore different perspectives and propose innovative solutions to complex challenges.
-                </p>
-            </div>
-            <div class="Card">
-                <img src="img/reasontojoin2.webp" alt="" style="border-radius: 20px; width: 100%;">
-                <br>
-                <p style="font-size: 20px;">
-                   Participate in a dynamic learning environment that fosters critical thinking, negotiation, public speaking, and leadership skills. Through simulation exercises, delegates develop practical understanding and strategies for navigating diplomatic negotiations and policy-making processes.
-                </p>
-            </div>
-            <div class="Card">
-                <img src="img/reasontojoin3.webp" alt="" style="border-radius: 20px; width: 100%;">
-                <br>
-                <p style="font-size: 20px;">
-                    Connect with a diverse group of passionate students from across various schools. Build lasting relationships, exchange ideas, and collaborate on resolutions that address real-world issues. Our event creates a vibrant community where you can expand your global network and gain valuable insights into international relations.
-                </p>
-            </div>
+    <h2 style="text-align:center; font-size:2rem; margin:1.5rem 0 0.5rem;">Why Register with Us?</h2>
+    <p style="text-align:center; font-size:1.125rem; margin-bottom:1.5rem;">Explore three compelling reasons to join our MUN</p>
+
+    <div class="cards-container">
+        <div class="card">
+        <img src="img/reasontojoin1.webp" alt="Diverse Committee Topics">
+        <div class="card-body">
+            <h3 class="card-title">Diverse Committee Topics</h3>
+            <p class="card-text">Engage in debates covering a wide range of pressing global issues, such as environmental sustainability, human rights, economic development, and more. Each committee provides a unique platform to explore different perspectives and propose innovative solutions to complex challenges.</p>
+        </div>
+        </div>
+
+        <div class="card">
+        <img src="img/reasontojoin2.webp" alt="Skill Development">
+        <div class="card-body">
+            <h3 class="card-title">Skill Development</h3>
+            <p class="card-text">Participate in a dynamic learning environment that fosters critical thinking, negotiation, public speaking, and leadership skills. Through simulation exercises, delegates develop practical understanding and strategies for navigating diplomatic negotiations and policy‑making processes.</p>
+        </div>
+        </div>
+
+        <div class="card">
+        <img src="img/reasontojoin3.webp" alt="Networking Opportunities">
+        <div class="card-body">
+            <h3 class="card-title">Networking Opportunities</h3>
+            <p class="card-text">Connect with a diverse group of passionate students from across various schools. Build lasting relationships, exchange ideas, and collaborate on resolutions that address real‑world issues. Our event creates a vibrant community where you can expand your global network and gain valuable insights into international relations.</p>
+        </div>
         </div>
     </div>
-    
+    </div>
+        
     <div class="container-fluid pt-5 my-5 px-0 committee">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
             <h1 class="display-5 text-white mb-5">Our Committees</h1>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-1.jpg" alt="">
+                <img class="img-fluid" src="img/committee-logos/AIPPM.png" alt="">
                 <div class="project-title">
                     <h5 class="text-primary text-white mb-0">Auto Engineering</h5>
                 </div>
@@ -280,7 +297,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid" src="img/siyona.png" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square share" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -299,7 +316,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        <img class="img-fluid" src="img/vanshika.png" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square share" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -318,7 +335,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        <img class="img-fluid" src="img/vedic.png" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square share" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>

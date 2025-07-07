@@ -40,31 +40,55 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-            <img class="gsglogo" src="img/gsg.svg" alt="GsG logo">
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link ">Home</a>
-                <a href="about.html" class="nav-item nav-link">Gallery</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+        <div class="container-fluid">
+            <!-- Left-aligned logo -->
+            <div style="margin-left: 30px;">
+                <img class="gsglogo" src="img/gsg.svg" alt="GsG logo" style="height: 40px;">
             </div>
-            <div class="ms-auto d-none d-lg-block">
-                <img class="gsglogo" src="img/witty.png" alt="Witty logo">
-                <img class="gsglogo" src="img/wismun-logo.png" alt="Wismun logo">
+
+            <!-- Toggler button for small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">Gallery</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="registor.html" class="nav-item nav-link">Register Now</a>
+                </div>
+
+                <!-- Centered Wismun logo on large screens -->
+                <div class="mx-auto d-none d-lg-block">
+                    <img class="gsglogo" src="img/wismun-logo.png" alt="Wismun logo" style="height: 40px;">
+                </div>
+
+                <!-- Right-aligned Witty logo on large screens -->
+                <div class="ms-auto d-none d-lg-block">
+                    <img class="gsglogo" src="img/witty.png" alt="Witty logo" style="height: 40px;">
+                </div>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
+<div style="width: 100%; background-color: #a4b0bf; padding: 10px 20px; box-sizing: border-box;">
+    <p style="color: black; text-align: center; font-family: Arial, Helvetica, sans-serif; margin: 0;">
+        Join us on 2nd & 3rd August 2025 at Witty International School, Pawan Baug, Borivali (W)
+    </p>
+</div>
 
-    <!-- Carousel Start -->
+<!-- Carousel Start -->
     <div class="container-fluid wow mb-5 fadeIn page-header px-0 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/classroom3.png" alt="Image">
+                    <img class="w-100" src="img/banner.jpeg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
-                        <h1 class="display-3 text-white animated slideInRight" style="text-align: left;">Contact</h1>
+                        <h1 class="display-3 text-white animated slideInRight" style="text-align: left;">Contact Us</h1>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb animated slideInRight mb-0">
                                     <li class="breadcrumb-item" ><a href="#">Home</a></li>
@@ -79,42 +103,34 @@
     </div>
     <!-- Carousel End -->
 
-
-
-    <!-- Contact Start -->
+    <!-- Contact End -->
+    <h1 style="text-align: center;">Contact Us</h1>
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5 justify-content-center mb-5">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="bg-light text-center h-100 p-5">
+                    <div class="bg-light text-center p-5" style="width: 400px;">
                         <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                            <img src="img/wittygray.png" style="width: 60%; height: 60%;" alt="">
+                            <img src="img/contact.png" alt="contact icon" style="width: 50%; height: 50%;">
+                            <hr>
                         </div>
-                        <h4 class="mb-3">Witty Students</h4>
-                        <p class="mb-2">info@example.com</p>
-                        <p class="mb-4">support@example.com</p>
-                        <!-- Change this youtube like to the google form link (lol) -->
-                        <a class="btn btn-primary px-4" href="https://www.youtube.com/watch?v=8Mv3nTLtUEo">Register Now<i class="fa fa-arrow-right ms-2"></i></a>
+                        <h2>Contact Us</h1>
+                        <p>Our Number: 123456789+</p>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="bg-light text-center h-100 p-5">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-light text-center p-5" style="width: 400px;">
                         <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                            <img src="img/school.png" style="width: 60%; height: 60%;" alt="">
+                            <img src="img/mail.png" alt="contact icon" style="width: 50%; height: 50%;">
+                            <hr>
                         </div>
-                        <h4 class="mb-3">Interschool Students</h4>
-                        <p class="mb-2">+012 345 67890</p>
-                        <p class="mb-4">+012 345 67890</p>
-                        <!-- Change this youtube like to the google form link (lol) -->
-                        <a class="btn btn-primary px-4" href="https://www.youtube.com/watch?v=8Mv3nTLtUEo" target="blank">Register Now<i class="fa fa-arrow-right ms-2"></i></a>
+                        <h2>Contact Us</h1>
+                        <p>Our Email: wismun@myglobal.school</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
