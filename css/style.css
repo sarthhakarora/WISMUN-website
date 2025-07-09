@@ -801,6 +801,19 @@ h6,
     
 }
 
+.regtitle {
+    text-align: center;
+}
+
+.numberbullet {
+    border-radius: 100%;
+    background-color: var(--primary);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 /*** Footer ***/
 .footer {
     color: #B0B9AE;
